@@ -1,0 +1,26 @@
+@import "abstract/variables";
+@import 'bootstrap/scss/bootstrap.scss';
+@import "abstract/base";
+
+
+$btn-a-bg: #46139f;
+$btn-a-border-color: #46139f;
+
+.btn-a {
+  @include button-variant($btn-a-bg, $btn-a-border-color);
+}
+
+
+$btn-b-bg: #ff7f50;
+$btn-b-border-color: #ff7f50;
+
+.btn-b {
+  @include button-variant($btn-b-bg, $btn-b-border-color);
+}
+
+$btn-c-bg: #fff;
+$btn-c-border-color: #46139f;
+
+.btn-c {
+  @include button-variant($btn-c-bg, $btn-c-border-color);
+}
